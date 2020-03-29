@@ -8,7 +8,7 @@
 // 1) Use the D3 library to read in samples.json
 // ************************************************************************
 // Set variable to the path for samples.json data
-const jsonFilepath = "/data/samples.json";
+const jsonFilepath = "data/samples.json";
 
 // Go get the the JSON data, read it in & console.log it
 function getBellyButtonData() {
