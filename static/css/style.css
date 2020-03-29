@@ -1,0 +1,21 @@
+/************************************************/
+/*--  jumbotron --*/
+/************************************************/
+#jumbotron {
+  background-image: url("../images/metagenomi-aloitus.jpg")
+}
+
+/************************************************/
+/*--  footer --*/
+/************************************************/
+.footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #444444;
+  color: #ffffff;
+  padding: 10px;
+  border-top: 5px solid rgb(12, 79, 25);
+  text-align: center;
+  font-size: small;
+}

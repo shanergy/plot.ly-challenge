@@ -58,6 +58,12 @@ function getBellyButtonData() {
             x: plotSampleValues.slice(0,10).reverse(),
             y: plotOtuIds.map(d => `OTU ${d}`).slice(0,10).reverse(),
             hovertext: plotOtuLabels.slice(0,10).reverse(),
+            marker: {
+                color: plotOtuIds.slice(0,10).reverse(),
+                colorscale: "Rainbow",
+                cmin: 0,
+                cmax: 5000,
+            }
         }
         // Create data array for the plot
         var barData = [barTrace1];
@@ -89,7 +95,11 @@ function getBellyButtonData() {
             marker: {
                 size: plotSampleValues,
                 // size: plotSampleValues.map((d) => d * 0.7),
+                sizeref: 1.2,
                 color: plotOtuIds,
+                colorscale: "Earth",
+                cmin: 0,
+                cmax: 6000,
             }
         };
         // Create data array for the plot
